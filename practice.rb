@@ -36,11 +36,10 @@ anthony_total = 0
 
 # Setting up hash variables for loop
 blockchain_index = 0
-blockchain_entry = blockchain[blockchain_index]
 
 # Loop calculating additions to wallet
 loop do 
-  
+
   # Stop loop once we've gone through all the hashes
   if blockchain_index == blockchain.count
     break
